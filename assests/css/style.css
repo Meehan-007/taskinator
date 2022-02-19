@@ -56,8 +56,15 @@ form input {
 
 form .form-group {
   margin: 10px 6px 10px 0;
-  flex: 1;
-}
+  flex: 2;
+} 
+
+.form-group { 
+  display: flex;  
+  width: 75%;
+} 
+
+
 
 footer {
   width: 100%;
@@ -85,9 +92,10 @@ footer {
 }
 
 .task-list-wrapper {
-  flex: 1;
+  flex: 1; 
   margin: 0 20px 20px;
 }
+
 
 .list-title {
   color: var(--secondary);
